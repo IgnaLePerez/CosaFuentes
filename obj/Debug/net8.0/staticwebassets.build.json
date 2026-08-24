@@ -1,1 +1,58 @@
-{"Version":1,"Hash":"ANZGde3eg0fypJcmw9lWHu7emMohNpjqegNIDh0n5wc=","Source":"EscapeRoomCuento","BasePath":"_content/EscapeRoomCuento","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[{"Name":"EscapeRoomCuento\\wwwroot","Source":"EscapeRoomCuento","ContentRoot":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\","BasePath":"_content/EscapeRoomCuento","Pattern":"**"}],"Assets":[{"Identity":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\css\\site.css","SourceId":"EscapeRoomCuento","SourceType":"Discovered","ContentRoot":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\","BasePath":"_content/EscapeRoomCuento","RelativePath":"css/site#[.{fingerprint}]?.css","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"hziygqkasc","Integrity":"nQxf1S8dhgk1uY2l8iaZXXuBREuDp13aVcA77VmbCl4=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\site.css","FileLength":7201,"LastWriteTime":"2026-08-24T16:06:54+00:00"},{"Identity":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\js\\site.js","SourceId":"EscapeRoomCuento","SourceType":"Discovered","ContentRoot":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\","BasePath":"_content/EscapeRoomCuento","RelativePath":"js/site#[.{fingerprint}]?.js","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"z4ylukcfov","Integrity":"E87DiXSLSCotNh+9d3jiHz0vbnPljMjR/r/7Gvi1hr8=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\js\\site.js","FileLength":3672,"LastWriteTime":"2026-08-24T16:06:54+00:00"}],"Endpoints":[{"Route":"css/site.css","AssetFile":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\css\\site.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"7201"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"nQxf1S8dhgk1uY2l8iaZXXuBREuDp13aVcA77VmbCl4=\""},{"Name":"Last-Modified","Value":"Mon, 24 Aug 2026 16:06:54 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-nQxf1S8dhgk1uY2l8iaZXXuBREuDp13aVcA77VmbCl4="}]},{"Route":"css/site.hziygqkasc.css","AssetFile":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\css\\site.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"7201"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"nQxf1S8dhgk1uY2l8iaZXXuBREuDp13aVcA77VmbCl4=\""},{"Name":"Last-Modified","Value":"Mon, 24 Aug 2026 16:06:54 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"hziygqkasc"},{"Name":"label","Value":"css/site.css"},{"Name":"integrity","Value":"sha256-nQxf1S8dhgk1uY2l8iaZXXuBREuDp13aVcA77VmbCl4="}]},{"Route":"js/site.js","AssetFile":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\js\\site.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3672"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"E87DiXSLSCotNh+9d3jiHz0vbnPljMjR/r/7Gvi1hr8=\""},{"Name":"Last-Modified","Value":"Mon, 24 Aug 2026 16:06:54 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-E87DiXSLSCotNh+9d3jiHz0vbnPljMjR/r/7Gvi1hr8="}]},{"Route":"js/site.z4ylukcfov.js","AssetFile":"C:\\Users\\49961152\\Downloads\\EscapeRoomCuento\\EscapeRoomCuento\\wwwroot\\js\\site.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3672"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"E87DiXSLSCotNh+9d3jiHz0vbnPljMjR/r/7Gvi1hr8=\""},{"Name":"Last-Modified","Value":"Mon, 24 Aug 2026 16:06:54 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"z4ylukcfov"},{"Name":"label","Value":"js/site.js"},{"Name":"integrity","Value":"sha256-E87DiXSLSCotNh+9d3jiHz0vbnPljMjR/r/7Gvi1hr8="}]}]}
+{
+  "Version": 1,
+  "Hash": "XHQxa+emkQe/QTztktKesYdf3ZiBGsrKyZdtjpKH5LE=",
+  "Source": "EscapeRoomCuento",
+  "BasePath": "_content/EscapeRoomCuento",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EscapeRoomCuento\\wwwroot",
+      "Source": "EscapeRoomCuento",
+      "ContentRoot": "C:\\CosaFuentes\\wwwroot\\",
+      "BasePath": "_content/EscapeRoomCuento",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\CosaFuentes\\wwwroot\\css\\site.css",
+      "SourceId": "EscapeRoomCuento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CosaFuentes\\wwwroot\\",
+      "BasePath": "_content/EscapeRoomCuento",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\CosaFuentes\\wwwroot\\js\\site.js",
+      "SourceId": "EscapeRoomCuento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CosaFuentes\\wwwroot\\",
+      "BasePath": "_content/EscapeRoomCuento",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

@@ -19,14 +19,17 @@ body {
     margin: 0;
     font-family: 'Cinzel', serif;
     color: var(--ink);
-}
-
-.page-bg {
-    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background:
         radial-gradient(ellipse at top, rgba(255,255,255,0.08), transparent 60%),
         linear-gradient(160deg, #2b1d10 0%, #1a120a 100%);
-    padding: 32px 16px 64px;
+    height: 100vh;
+}
+
+.page-bg {
+    min-height: 71vh;
 }
 
 .top-header {
@@ -55,7 +58,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto 40px;
 }
 
@@ -127,6 +130,9 @@ body {
     border-radius: 18px;
     padding: 26px 22px 18px;
     box-shadow: 0 10px 24px rgba(0,0,0,0.5), inset 0 2px 3px rgba(255,255,255,0.4);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .digits {
