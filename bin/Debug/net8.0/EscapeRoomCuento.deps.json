@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EscapeRoomCuento/1.0.0": {
+        "runtime": {
+          "EscapeRoomCuento.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EscapeRoomCuento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

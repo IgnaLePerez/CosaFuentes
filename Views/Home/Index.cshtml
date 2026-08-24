@@ -1,0 +1,75 @@
+@model List<QuestionViewModel>
+@{
+    ViewData["Title"] = "Sala de Escape";
+}
+
+<header class="top-header">
+    <h1>📜 Escapa del Cuento</h1>
+    <p class="subtitle">Respondé las 5 preguntas y descubrí el código del candado</p>
+</header>
+
+<nav class="questions-bar">
+    @foreach (var q in Model)
+    {
+        <button type="button" class="question-btn" data-modal="modal-@q.Id">
+            <span class="q-number">@q.Id</span>
+            Pregunta @q.Id
+        </button>
+    }
+</nav>
+
+<main class="lock-area">
+    <div class="padlock">
+        <div class="shackle"></div>
+        <div class="lock-body">
+            <div class="digits" id="digits">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <div class="digit-slot" data-index="@i">
+                        <span class="digit-value">–</span>
+                    </div>
+                }
+            </div>
+            <div class="lock-status" id="lockStatus"></div>
+        </div>
+    </div>
+
+    <div class="keypad">
+        @for (int n = 1; n <= 4; n++)
+        {
+            <button type="button" class="key-btn" data-digit="@n">@n</button>
+        }
+        <button type="button" class="key-btn key-clear" id="clearBtn">⌫</button>
+    </div>
+
+    <button type="button" class="submit-btn" id="submitBtn">Abrir candado</button>
+</main>
+
+@foreach (var q in Model)
+{
+    <div class="modal-overlay" id="modal-@q.Id">
+        <div class="modal-box">
+            <button type="button" class="modal-close" data-close="modal-@q.Id">✕</button>
+            <div class="modal-question-number">Pregunta @q.Id</div>
+            <h2 class="modal-question-text">@q.Text</h2>
+            <div class="kahoot-grid">
+                @for (int i = 0; i < q.Options.Count; i++)
+                {
+                    <div class="kahoot-tile tile-@(i + 1)">
+                        <span class="tile-shape shape-@(i + 1)"></span>
+                        <span class="tile-text">@q.Options[i]</span>
+                    </div>
+                }
+            </div>
+            <p class="modal-hint">El número de la opción correcta es el dígito que va en esa posición del candado.</p>
+        </div>
+    </div>
+}
+
+<div class="modal-overlay" id="modal-success">
+    <div class="modal-box success-box">
+        <h2>🎉 ¡Candado abierto!</h2>
+        <p>Encontraron el código correcto. La historia continúa...</p>
+        <button type="button" class="submit-btn" data-close="modal-success">Cerrar</button>
+    </div>
+</div>
